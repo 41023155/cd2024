@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-12T16:11:00+08:00</updated><entry><title>2024 Spring 課程 W3</title><link href="./2024-Spring-W3-blog-tutorial.html" rel="alternate"></link><published>2024-04-12T16:11:00+08:00</published><updated>2024-04-12T09:21:58+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-12:./2024-Spring-W3-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>網際內容管理系統</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2024-04-12T16:11:00+08:00</updated><entry><title>2024 Spring 課程 W3</title><link href="./2024-Spring-W3-blog-tutorial.html" rel="alternate"></link><published>2024-04-12T16:11:00+08:00</published><updated>2024-04-12T09:32:00+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-04-12:./2024-Spring-W3-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 &lt;h1&gt;甲班第一組組長如何建立 midag1 Team&lt;/h1&gt;
@@ -41,7 +41,7 @@ git push
 獲取你的 IPv4 地址：
 ipconfig
 在組別下的 Python 腳本中導入你的 IPv4 環境。
-允許組別中的其他成員更新和推送修改。&lt;/p&gt;</content><category term="W3"></category><category term="網誌編寫 41023155"></category></entry><entry><title>2024 Spring 課程</title><link href="./2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:00:00+08:00</published><updated>2024-04-12T09:09:11+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-18:./2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
+允許組別中的其他成員更新和推送修改。&lt;/p&gt;</content><category term="W3"></category><category term="網誌編寫 41023155"></category></entry><entry><title>2024 Spring 課程 W1</title><link href="./2024-Spring-w1-blog-tutorial.html" rel="alternate"></link><published>2024-02-18T11:56:00+08:00</published><updated>2024-04-12T09:33:34+08:00</updated><author><name>kmol</name></author><id>tag:None,2024-02-18:./2024-Spring-w1-blog-tutorial.html</id><summary type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 </summary><content type="html">&lt;p&gt;2024 Spring 網際內容管理與協同產品設計實習課程教學導引.&lt;/p&gt;
 
 
