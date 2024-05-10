@@ -2,7 +2,7 @@
         <head>
         <title>cmsimde_site</title>
         <meta charset="utf-8">
-<meta property="head" content="H2">
+<meta property="head" content="H1">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
         <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700,900" rel="stylesheet">
         <link rel="stylesheet" href="./../cmsimde/static/chimper/fonts/icomoon/style.css">
@@ -142,66 +142,8 @@ img.add_border {
           </div>
 
         </header>
-    <div id="tipue_search_content">w1 << <a href='w1.html'>Previous</a> <a href='w3.html'>Next</a> >> w3<br /><h1>w2</h1>
-<div>
-<div><span style="background-color: #ff99cc;"><em><strong># 甲班第一組組長如何建立 midag1 Team</strong></em></span></div>
-<div><span style="background-color: #ff99cc;"><em><strong></strong></em></span></div>
-<div><span>在這部影片我學到了如何用Codespaces維護2a-midag8分組倉儲 操作歸納如下</span></div>
-<div><span>用 Codespaces 開啟動態網頁</span></div>
-<div><span>執行以下命令使 init_replit 檔案具有執行權限：</span></div>
-<div><span>chmod u+x init_replit</span></div>
-<div><span>執行 init_replit 檔案：</span></div>
-<div><span>./init_replit</span></div>
-<div><span>執行 main.py 檔案：</span></div>
-<div><span>python3 main.py</span></div>
-<div><span>用 Codespaces 開啟靜態網頁</span></div>
-<div><span>執行以下命令啟動 Python 內建的簡易伺服器：</span></div>
-<div><span>python3 -m http.server</span></div>
-<div><span>如何進行改版</span></div>
-<div><span>使用 git status 命令查看目前的修改狀態。</span></div>
-<div><span>使用 git add . 命令將所有修改的檔案添加到暫存區。</span></div>
-<div><span>使用 git commit -m "新增的的內容" 命令提交修改，並填入適合的提交訊息。</span></div>
-<div><span>使用 git push 將本地的提交推送到遠端倉儲。</span></div>
-<div><span></span></div>
-<div>
-<div>
-<div><span style="background-color: #ff99cc;"><strong><em># 如何利用近端可攜系統維護分組網站</em></strong></span></div>
-<div><span style="background-color: #ff99cc;"><strong><em></em></strong></span></div>
-<div><span>在這部影片我學到了如何用近端可攜系統維護分組網站 操作歸納如下</span></div>
-<div><span>1.SSH 金鑰： 使用 Puttygen 建立一把 SSH 金鑰並將其存儲為 .ppk 格式的檔案。</span></div>
-<div><span>2.SSH 金鑰導入 Putty： 使用 Putty 將 SSH 金鑰導入，以便在遠端伺服器上進行身份驗證。</span></div>
-<div><span>3.PuTTY 會話設定： 在 Regedit 中找到 HKEY_CURRENT_USER\Software\SimonTatham\PuTTY\Sessions\github.com 鍵，將其匯出為 .reg 檔案，這將保存你的 PuTTY 會話設定。</span></div>
-<div><span>4.本地端進行改版：</span></div>
-<div><span>切換到暫存目錄：</span></div>
-<div><span>cd tmp</span></div>
-<div><span>克隆倉庫：</span></div>
-<div><span>git clone --recurse-submodules git@github.com:mdecd2024/2a-midag1.git</span></div>
-<div><span>進入克隆的倉庫目錄：</span></div>
-<div><span>cd 2a-midag1</span></div>
-<div><span>進行修改和提交：</span></div>
-<div><span>#進行修改...</span></div>
-<div><span>git add .</span></div>
-<div><span>git commit -m "自己要推的東西"</span></div>
-<div><span>推送到遠端倉庫：</span></div>
-<div><span>git push</span></div>
-<div><span>5.其他使用者推送：</span></div>
-<div><span>獲取你的 IPv4 地址：</span></div>
-<div><span>ipconfig</span></div>
-<div><span>在組別下的 Python 腳本中導入你的 IPv4 環境。</span></div>
-<div><span>允許組別中的其他成員更新和推送修改。</span></div>
-<div><span></span></div>
-<div>
-<div>
-<div><em><strong><span style="background-color: #ff99cc;"># 如何利用近端可攜系統維護分組網站w2-1 說明甲班第一組組長如何建立 midag1 Team, 並利用 Codespaces 維護 2a-midag1 分組倉儲</span></strong></em></div>
-<div><em><strong><span style="background-color: #ff99cc;"></span></strong></em></div>
-<div><span>用github classroom建立組別倉儲，組長在or create a new team處以midag X 來稱謂組別名稱並+create team創立。在組別創立後，組員各自去join進入組別內。倉儲完全建立好後去到倉儲的settings並選取pages就可進入主分支。啟動完github pages就可以做code，並使用codespaces來維護內容。在codespaces中有許多終端機許多埠號資源可使用，不需要再公用443。啟動終端機要先安裝模組。使用者+執行+檔案位置=chmod u+x init_replit執行，執行安裝好後會直接給予2記憶體容量。但沒有run了，所以要在自己設定python3 main.py執行動態，利用8080幫我們開啟瀏覽器。連結埠號會呈現亂碼，所以別人無法進入。login進入動態後就可更改內容。終端機每個人每月都有120code小時。要push倉儲要新增終端機後，進行git add-&gt;git commit"網頁標題"，執行後就會直接推上不需要在轉檔。啟動靜態要在新增終端機，有python3內建模組了就可以直接http.server直接啟動埠號，8000會自動開啟瀏覽器連結，就可以直接進入到靜態。用完codespaces要在關閉code讓計時暫停。</span></div>
-</div>
-</div>
-</div>
-</div>
-</div>
-<div></div>
-<br />w1 << <a href='w1.html'>Previous</a> <a href='w3.html'>Next</a> >> w3</div>
+    <div id="tipue_search_content">關於 << <a href='關於.html'>Previous</a> <a href='w1.html'>Next</a> >> w1<br /><h1>Homework</h1>
+<br />關於 << <a href='關於.html'>Previous</a> <a href='w1.html'>Next</a> >> w1</div>
 
     <!-- footer -->
       <div class="container">
