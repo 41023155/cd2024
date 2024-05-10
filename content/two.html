@@ -143,7 +143,60 @@ img.add_border {
 
         </header>
     <div id="tipue_search_content">one << <a href='one.html'>Previous</a> <a href='three.html'>Next</a> >> three<br /><h1>two</h1>
-<br />one << <a href='one.html'>Previous</a> <a href='three.html'>Next</a> >> three</div>
+<p><span><strong><span style="background-color: #cc99ff;">練習2</span>:</strong></span><strong>請各分組製作一個 Web-based 網誌與簡報, 說明如何在 </strong><strong><a href="https://www.coppeliarobotics.com/">CoppeliaSim</a> 環境中, 利用 IPv6 <a href="https://manual.coppeliarobotics.com/en/zmqRemoteApiOverview.htm">ZeroMQ Remote API</a> Python 進行兩個自由度的鋼球平衡檯自動控制系統模擬?</strong></p>
+<p><span style="background-color: #ffff99;"><strong>答:</strong></span></p>
+<p>ZeroMQ遠端API<br/>共分了7種不同的程式語言。</p>
+<p>1.Python客戶端<br/>2.C++客戶端</p>
+<p><span>  使用C#，您可以使用 NetMQ 這個套件來建立 ZeroMQ 客戶端。您可以使用以下命令來安裝它</span><br/>3.Java客戶端</p>
+<p><br/>4.Matlab用戶端<br/>5.Octave用戶端<br/>6.Lua客戶端<br/>7.Rust用戶端</p>
+<p>8.Node.js客戶端：</p>
+<p>9.Go客戶端：</p>
+<p><span>  在 Go 中，您可以使用 </span><code>go-zmq</code><span> 套件來建立客戶端。您可以使用以下命令安裝它</span></p>
+<p>10.Swift客戶端：</p>
+<p>  在Swift中，您可以使用 <code>SwiftZeroMQ</code> 來建立ZeroMQ客戶端。您可以使用CocoaPods來安裝它</p>
+<p>11.Ruby客戶端：</p>
+<p>  Ruby的ZeroMQ綁定可通過 <code>ffi-rzmq</code> 這個gem 來獲取。您可以使用以下命令安裝它：</p>
+<p></p>
+<p>#注意需確保您的資料夾名稱不包含任何空格，並且 CoppeliaSim 正在運行（API 函數從 CoppeliaSim 取得)前面只考慮了 sim 和 simIK 命名空間，您可以根據需要添加更多命名空間#<br/>4.Matlab用戶端:需要捆綁的JeroMQ，如果尚不存在，它會自動安裝<br/>5.Octave用戶端:需要 Octave 6.4+、octave 通訊和 Zeromq 軟體包<br/>6.Lua客戶端:目前，僅在 CoppeliaSim 腳本內支援 Lua 用戶端，也就是支援API用戶端程式碼<br/>7.Rust用戶端: Samuel Cavalcanti 提供</p>
+<p>除了安裝所需的套件外，還有一些其他注意事項和補充內容：</p>
+<ol>
+<li>
+<p><strong>適用平台：</strong></p>
+<ul>
+<li>請確保您的開發平台支援所選擇的語言和相應的套件。有些套件可能對特定操作系統或平台有限制。</li>
+</ul>
+</li>
+<li>
+<p><strong>版本相容性：</strong></p>
+<ul>
+<li>確保所選擇的套件版本與您的開發環境和CoppeliaSim版本相容。有時候，套件的新版本可能不支援舊版本的CoppeliaSim，或者可能需要特定的庫或運行時環境。</li>
+</ul>
+</li>
+<li>
+<p><strong>編譯和設定：</strong></p>
+<ul>
+<li>對於一些語言，您可能需要進行額外的編譯或配置步驟，例如Java中使用Maven進行建構，或者設定環境變數以指示CoppeliaSim的位置。</li>
+</ul>
+</li>
+<li>
+<p><strong>文件和範例：</strong></p>
+<ul>
+<li>在開始使用ZeroMQ遠端API之前，建議閱讀相關的文件和範例程式碼。這些資源可以幫助您更好地了解如何使用API，以及如何將其整合到您的應用程式中。</li>
+</ul>
+</li>
+<li>
+<p><strong>錯誤處理和除錯：</strong></p>
+<ul>
+<li>在開發過程中，可能會遇到各種錯誤和問題。請確保您瞭解如何進行錯誤處理和除錯，以解決可能出現的問題。</li>
+</ul>
+</li>
+<li>
+<p><strong>安全性考慮：</strong></p>
+<ul>
+<li>當建立遠端連接時，請確保您的程式碼具有足夠的安全性措施，以防止潛在的安全漏洞或攻擊。</li>
+</ul>
+</li>
+</ol><br />one << <a href='one.html'>Previous</a> <a href='three.html'>Next</a> >> three</div>
 
     <!-- footer -->
       <div class="container">
