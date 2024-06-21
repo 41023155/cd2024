@@ -390,7 +390,40 @@
 <h2>w10</h2>
 <p>利用NX軟體進行零件繪製 並將繪製過程recording下來</p>
 <p><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" frameborder="0" height="315" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/hX3q-KhIn6g?si=sFA2K0DpEB_POFBI" title="YouTube video player" width="560"></iframe></p>
-<h2>w12-15</h2>
+<h2>w11</h2>
+<p>任務-</p>
+<p>倉儲與網站建立: 根據老師給予的2a各學員評分相關網站，取得老師所寫的程式，並詢問ChatGPT找出相應程式碼。 將原本有74行的程式碼簡化至40幾行，保持功能一致。 鋼球平衡台零組件繪圖: 解壓縮Solvespace_model_2d_for_cd2024_w6.7z檔案中的零件，根據尺寸在NX中進行繪製。 組裝過程中錄製並剪輯成13分鐘的影片，提供詳細步驟及組合圖</p><h2>w12-15</h2>
+<div>
+<div><em># w12-15-任務一</em></div>
+<div><span>使用Siwmens NX Journal設計專案，在其中可使用NXOpen程式執行儲存格式 。在使用軟體時建議使用英文介面，因為中文翻譯的介面並不明確。</span></div>
+<br/>
+<div><span>在設定選擇用語時，選擇Python方便後續網際上延伸編輯後續。</span></div>
+<br/>
+<div><span>組別分配網球平衡台零件繪製，並用NXOpen Python執行。之後試著把每個零件組合起來，並且做出啟動一個程式時全部的零組件可以在一程式域內快速組合起來。</span></div>
+<div><span></span></div>
+<div><span></span></div>
+<div><em># w12-15-任務二</em></div>
+<div><span>將分組倉儲設為評分子模組，直接在Repilt進行git clear、import跟git push過了。</span></div>
+<br/>
+<div><span>直接在倉儲做git submodule add+分組倉儲+組別，其為做子模組的方式。後續acp確認是否有丟上成功。</span></div>
+<br/>
+<div><span>後續試著子模組能否整合。</span></div>
+<div><span></span></div>
+<div><span></span></div>
+<div><em># w12-15-任務三</em></div>
+<div><span>進行足球機器人網際場景模擬，在cd2024 blog上下載去年的倉儲資料，並安裝跟改過的CoppeliaSim ipv6。</span></div>
+<br/>
+<div><span>要確認軟體內modules之connectivity的三個visualization stream、ws remote api server、zmq remote api server分別都是running的狀態。</span></div>
+<br/>
+<div><span>visualization stream是在瀏覽器上輸入埠號為23020的localhost可看到目前的模擬場景。</span></div>
+<br/>
+<div><span>開啟下載到的模擬場景，有兩個程式可以執行，分別judge.py與player.py。</span></div>
+<br/>
+<div><span># w12-15遇到問題</span></div>
+<div><span>1.在旋轉成型的零件上，在play程式時會遇到流程中斷的問題，但改良不使用旋轉成形的模組建立後，就不會有此問題。</span></div>
+<div><span>2.在組裝時會遇到結合過度約束的紅標，盡量更選使用讓最後成品顯示於干涉。還有尺寸的部分更改零件後，約束要刪除重新給定</span></div>
+<div><span>3.在CoppeliaSim場景開啟後匯入機器人，在擺正機器人與定位不是很熟練。</span></div>
+</div>
 <h1>w17</h1>
 <h2>作業一</h2>
 <p>繪製球員零件 本次繪製頭 身體以及四肢 皆有將繪製過程路程影片上傳至YOUTUBE</p>
